@@ -11,7 +11,7 @@ function Bio() {
 
         <div className="bio-text-div">
           
-            <h2 className="bio-text" > Hello! I am a frontend wed engineer, I am currently expanding my knowledge of frontend software
+            <h2 className="bio-text" > Hello! I am a frontend wed engineer, I am currently expanding my knowledge of software
           languages and building a body of work to express my skill set, styles,
           and compassion for engineering.</h2>
 

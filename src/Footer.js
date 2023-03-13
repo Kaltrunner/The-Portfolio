@@ -3,6 +3,10 @@ function Footer() {
     return (
         <div className="footer-body-div" >
 
+<div>
+          <p className="footer-text" id="all-pro" >./Projects</p>
+      </div>
+
       <div>
         <ul>
           <p className="footer-text">Resumé /</p>
@@ -11,19 +15,15 @@ function Footer() {
 
           <p className="footer-text"><a className="tag" target="_blank" rel="noreferrer" href="https://github.com/Kaltrunner" >GitHub /</a></p>
 
-          <p className="footer-text">Blog /</p>
+          <p className="footer-text"><a className="tag" target="_blank" rel="noreferrer" href="https://medium.com/@erikrussells">Blog/</a></p>
+          
           
         </ul>
       </div>
 
-      <div>
-        <ul>
-          <p className="footer-text" id="all-pro" >All Projects /</p>
-          {/* <p className="footer-text">Exhibits</p>
-          <p className="footer-text">Café</p>
-          <p className="footer-text">Shop</p> */}
-        </ul>
-      </div>
+      {/* <div>
+          <p className="footer-text" id="all-pro" >./Projects</p>
+      </div> */}
 
       <div className="">
         <ul>

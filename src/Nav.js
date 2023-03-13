@@ -6,8 +6,8 @@ window.onscroll = function () {
 
 function scrollFunction() {
   if (
-    document.body.scrollTop > 300 ||
-    document.documentElement.scrollTop > 300
+    document.body.scrollTop > 200 ||
+    document.documentElement.scrollTop > 200
   ) {
     document.getElementById("navbar").style.top = "-115px";
   } else {
@@ -25,10 +25,15 @@ function Nav() {
 
         <div className="nav-menu-div">
           <ul className="menu-list">
+
             <li className="menu-item">Resumé /</li>
-            <li className="menu-item">Linkedin /</li>
-            <li className="menu-item">Github /</li>
-            <li className="menu-item">Blog /</li>
+
+            <li className="menu-item"> <a id="menu-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/erik-russell-software-engineer/">Linkedin / </a></li>
+
+            <li className="menu-item"><a id="menu-link" target="_blank" rel="noreferrer" href="https://github.com/Kaltrunner" >GitHub /</a></li>
+
+            <li className="menu-item"><a id="menu-link" target="_blank" rel="noreferrer" href="https://medium.com/@erikrussells">Blog /</a></li>
+
           </ul>
         </div>
         
