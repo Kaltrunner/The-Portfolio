@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Clock from "./Clock";
 
 window.onscroll = function () {
@@ -26,7 +27,7 @@ function Nav() {
         <div className="nav-menu-div">
           <ul className="menu-list">
 
-            <li className="menu-item">Resumé /</li>
+            <Link to="/Resume" className="nav-resume-link" ><li className="menu-item">Resume /</li></Link>
 
             <li className="menu-item"> <a id="menu-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/erik-russell-software-engineer/">Linkedin / </a></li>
 

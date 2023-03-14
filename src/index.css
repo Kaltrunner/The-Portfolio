@@ -80,6 +80,10 @@ body::-webkit-scrollbar-thumb:active {
   color: #101820;
 }
 
+.nav-resume-link {
+  color: #101820;
+}
+
 /* Clock Styles */
 
 .clock-div {
@@ -240,12 +244,12 @@ body::-webkit-scrollbar-thumb:active {
 
 #sample-link {
   color: #101820;
-  transition: all 0.15s ease-in-out;
+  /* transition: all 0.15s ease-in-out; */
 }
 .sample-name-text:hover  {
   color: #f2a3b3;
   visibility: visible;
-  transition: all 0.15s ease-in-out;
+  /* transition: all 0.15s ease-in-out; */
 }
 
 .sample-text {
@@ -305,6 +309,43 @@ body::-webkit-scrollbar-thumb:active {
   color: #f2a3b3 ;
 }
 
+
+/* Resume Styles */
+
+.resume-bodu-div {
+  margin: 6rem;
+}
+
+.resume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-div {
+  width: 50vw;
+  height: 90%;
+  margin-top: 6rem;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 0 10px 2px #969696;
+  background-color: white;
+  transition:all .25s ease-in-out;
+}
+.resume-div:hover {
+  box-shadow: 0 0 18px 4px #969696;
+  transition:all .25s ease-in-out;
+}
+
+#resume-img {
+  height: 110%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
 /* extra Styles */
 
 .line-div {
@@ -312,6 +353,15 @@ body::-webkit-scrollbar-thumb:active {
   height: 1px;
   background-color: #101820;
   margin: 0 auto;
+}
+
+#disabled {
+  cursor: default;
+  color: #969696;
+  border-bottom: #e0e0e0;
+}
+#disabled:hover {
+  text-decoration: none;
 }
 
 /* Screen sizes Styles */

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 function Footer() {
     return (
@@ -9,7 +10,7 @@ function Footer() {
 
       <div>
         <ul>
-          <p className="footer-text">Resumé /</p>
+          <Link to="/Resume" className="nav-resume-link" ><p className="footer-text">Resume /</p></Link>
 
           <p className="footer-text"><a className="tag" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/erik-russell-software-engineer/">LinkedIn /</a></p>
 
@@ -20,10 +21,6 @@ function Footer() {
           
         </ul>
       </div>
-
-      {/* <div>
-          <p className="footer-text" id="all-pro" >./Projects</p>
-      </div> */}
 
       <div className="">
         <ul>
