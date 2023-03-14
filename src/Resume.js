@@ -1,21 +1,21 @@
 import Footer from "./Footer";
-import { useLocation, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { ScrollToTop } from 'react-router-scroll-to-top';
 
 
 
 function Resume() {
 
-    const location = useLocation();
-    console.log(location);
+    // const location = useLocation();
+    // console.log(location);
 
   return (
     <>
     <div className="resume-bodu-div">
 
-        <ul  className="menu-list">
-            <li className="menu-item" id="disabled" >{location.pathname}</li>
-            <Link to="/" className="nav-resume-link"  ><li className="menu-item" >/Home</li></Link>
+        <ul  className="sub-menu-list">
+            <li className="sub-menu-item" id="disabled" >/ Erik Russell</li>
+            <Link to="/" className="nav-resume-link"  ><li className="menu-item" >/ Home</li></Link>
         </ul>
 
       <div className="resume-header-text-div">

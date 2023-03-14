@@ -160,7 +160,8 @@ body::-webkit-scrollbar-thumb:active {
 .bio-text-div {
   width: 500px;
   height: 500px;
-  margin: 0 10vw;
+  margin: 0 auto;
+  margin-left: 10vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -170,7 +171,7 @@ body::-webkit-scrollbar-thumb:active {
 .bio-text {
   font-size: 42px;
   font-weight: 300;
-  line-height: 1.15em;
+  line-height: 42px;
 }
 
 .link {
@@ -346,6 +347,33 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 
+/* Projects Styles */
+
+.projects-body-div {
+  margin: 6rem;
+}
+
+/* Sub-menu Styles */
+
+.sub-menu-list {
+  padding: 0;
+}
+
+.sub-menu-item {
+  font-size: 32px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 0 ;
+  border: 2px solid #e0e0e0;
+  padding: 0;
+}
+.sub-menu-item:hover {
+  cursor: pointer;
+  color: #f2a3b3 ;
+  border-bottom: 2px solid #101820;
+}
+
+
 /* extra Styles */
 
 .line-div {
@@ -372,7 +400,7 @@ body::-webkit-scrollbar-thumb:active {
     line-height: 100px;
   } */
   .menu-item {
-    font-size: 24px;
+    /* font-size: 24px; */
     font-weight: 300;
     display: inline-block;
     margin: 0 1rem;
@@ -380,11 +408,11 @@ body::-webkit-scrollbar-thumb:active {
   .clock-div {
     font-size: 24px;
   }
-  .bio-content-div {
+  /* .bio-content-div {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-  }
+  } */
   .bio-text {
     font-size: 38px;
     line-height: 1em;
@@ -401,9 +429,9 @@ body::-webkit-scrollbar-thumb:active {
     font-size: 8;
   }
   .bio-content-div {
-    flex-direction: column;
+    /* flex-direction: column;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto; */
   }
   .bio-text-div {
     margin-left: 1rem;
@@ -437,6 +465,7 @@ body::-webkit-scrollbar-thumb:active {
     height: 500px;
   }
   .bio-text-div {
+    width: 90%;
     margin: 0 auto;
   }
   .bio-text {

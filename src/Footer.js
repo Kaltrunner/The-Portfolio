@@ -5,7 +5,7 @@ function Footer() {
         <div className="footer-body-div" >
 
 <div>
-          <p className="footer-text" id="all-pro" >./Projects</p>
+          <Link className="" to="/Projects" ><p className="footer-text" id="all-pro" >./Projects</p></Link>
       </div>
 
       <div>
