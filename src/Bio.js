@@ -28,7 +28,7 @@ function Bio() {
         
 
       </div>
-      <div className="line-div" ></div>
+      {/* <div className="line-div" ></div> */}
     </div>
     
   );
