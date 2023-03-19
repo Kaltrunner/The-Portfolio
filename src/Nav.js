@@ -27,6 +27,8 @@ function Nav() {
         <div className="nav-menu-div">
           <ul className="menu-list">
 
+          <Link to="/Projects" className="nav-resume-link" ><li className="menu-item">Projects /</li></Link>
+
             <Link to="/Resume" className="nav-resume-link" ><li className="menu-item">Resume /</li></Link>
 
             <li className="menu-item"> <a id="menu-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/erik-russell-software-engineer/">Linkedin / </a></li>

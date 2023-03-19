@@ -25,7 +25,7 @@ function Resume() {
       <div className="line-div"></div>
 <div className="resume-container" >
       <div className="resume-div">
-            <div><img id="resume-img" src="Screenshot 2023-03-13 at 10.29.54 PM.png" alt="resume" /></div>
+            <div><img id="resume-img" src="Resume-2023.png" alt="resume" /></div>
       </div>
       </div>
      

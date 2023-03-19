@@ -12,7 +12,7 @@ function Featured() {
           <div className="sample-img-div">
             <img
               className="sample-img"
-              src="Screenshot 2023-03-13 at 2.42.06 PM.png"
+              src="rudy.png"
               alt="Rudy"
             />
           </div>
