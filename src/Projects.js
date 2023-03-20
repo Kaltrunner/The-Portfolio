@@ -53,12 +53,12 @@ function Projects() {
       
               <div className="horizontal-scroll-wrapper">
 
-            <div class="img-wrapper faster" id="invisible-img">
+            {/* <div class="img-wrapper faster" id="invisible-img">
                   <img className="projects-image" src="rudy.png" alt="" />
-                </div>
+                </div> */}
 
 
-                <div className="img-wrapper slower">
+                <div className="img-wrapper">
                 <a href="https://www.erikmrussell.com/" target="_blank" rel="noreferrer">
                     <img
                       className="projects-image"
@@ -69,11 +69,11 @@ function Projects() {
                   </a>
                 </div>
 
-                <div class="img-wrapper faster" id="invisible-img">
+                {/* <div class="img-wrapper faster" id="invisible-img">
                   <img className="projects-image" src="rudy.png" alt="" />
-                </div>
+                </div> */}
 
-                <div class="img-wrapper faster">
+                <div class="img-wrapper">
                 <a
                     href="https://kaltrunner.github.io/agreensquare.github.io/"
                     target="_blank"
@@ -90,14 +90,11 @@ function Projects() {
                   </a>
                 </div>
 
-                <div class="img-wrapper slower slower-down" id="invisible-img">
-                  <img
-                    src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/swanduckriver.jpg"
-                    alt=""
-                  />
-                </div>
+                {/* <div class="img-wrapper slower slower-down" id="invisible-img">
+                  <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/swanduckriver.jpg" alt=""/>
+                </div> */}
 
-                <div class="img-wrapper slower">
+                <div class="img-wrapper">
                 <a href="https://optical-lie.onrender.com/" target="_blank" rel="noreferrer">
                     <img
                       className="projects-image"
@@ -108,14 +105,14 @@ function Projects() {
                   </a>
                 </div>
 
-                <div class="img-wrapper slower" id="invisible-img">
+                {/* <div class="img-wrapper slower" id="invisible-img">
                     <img
                       src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/paris-seine-boat.jpg"
                       alt=""
                     />
-                </div>
+                </div> */}
 
-                <div class="img-wrapper faster1">
+                <div class="img-wrapper">
                 <a href="https://www.erikmrussell.com/" target="_blank" rel="noreferrer">
                     <img
                       className="projects-image"
@@ -126,12 +123,12 @@ function Projects() {
                   </a>
                 </div>
 
-                <div class="img-wrapper slower slower2" id="invisible-img">
+                {/* <div class="img-wrapper slower slower2" id="invisible-img">
                     <img
                       src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/cafe-table-street.jpg"
                       alt=""
                     />
-                </div>
+                </div> */}
 
                 <div class="img-wrapper">
                 <a href="https://nutimasafn.onrender.com/" target="_blank" rel="noreferrer">
@@ -144,30 +141,30 @@ function Projects() {
                   </a>
                 </div>
 
-                <div class="img-wrapper slower" id="invisible-img">
+                {/* <div class="img-wrapper slower" id="invisible-img">
                     <img
                       src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/notre-dame-river-boat.jpg"
                       alt=""
                     />
-                </div>
+                </div> */}
 
-                <div class="img-wrapper slower last">
+                <div class="img-wrapper">
                 <a href="https://design-system-sid.onrender.com/" target="_blank" rel="noreferrer">
                     <img
                       className="projects-image"
                       src="design-system-sid.png"
                       alt="design system sid"
                     />
-                    <p className="projects-image-text">Design System Sid</p>
+                    <p className="projects-image-text">Design System Sid.</p>
                   </a>
                 </div>
 
-                <div class="img-wrapper slower" id="invisible-img">
+                {/* <div class="img-wrapper slower" id="invisible-img">
                     <img
                       src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/74321/notre-dame-river-boat.jpg"
                       alt=""
                     />
-                </div>
+                </div> */}
 
               </div>
              
