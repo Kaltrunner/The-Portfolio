@@ -28,7 +28,7 @@ function Featured() {
             </a>
             <p className="sample-text">
               .Rudy is a fully functional design system, consisting of buttons,
-              toggles, sliders, color grids and many more.
+              toggles, sliders, color grids and much more.
             </p>
           </div>
         </div>

@@ -5,11 +5,13 @@ function Footer() {
         <div className="footer-body-div" >
 
 <div>
-          <Link className="" to="/Projects" ><p className="footer-text" id="all-pro" >Projects /</p></Link>
+          <Link className="" to="/" ><p className="footer-text" id="all-pro" >Erik Russell /</p></Link>
       </div>
 
       <div>
         <ul>
+        <Link className="" to="/Projects" ><p className="footer-text">Projects /</p></Link>
+
           <Link to="/Resume" className="nav-resume-link" ><p className="footer-text">Resume /</p></Link>
 
           <p className="footer-text"><a className="tag" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/erik-russell-software-engineer/">LinkedIn /</a></p>
