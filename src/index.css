@@ -219,7 +219,7 @@ body::-webkit-scrollbar-thumb:active {
 
 .sample-img-div:hover img {
   filter:brightness(100%);
-  cursor: pointer;
+  cursor: default;
   border-radius: 2px;
   box-shadow: 0 0 12px 2px #969696;
   transition: all 0.25s, filter 0.5s ease-in-out;
@@ -259,6 +259,37 @@ body::-webkit-scrollbar-thumb:active {
 #sample-2 {
   margin-top: 10%;
 
+}
+
+/* Salect Projects Styles */
+
+.select-featured-body-div {
+  margin: 5rem;
+  padding: 0;
+}
+
+.select-body-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select-section-info {
+  width: 80vw;
+  height: 80vh;
+  border-radius: 28px;
+  box-shadow: 0 0 10px 2px #969696;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-img {
+  width: 20vw;
+  height: 60vh;
+  background-color: #101820;
+  margin: 2vw;
 }
 
 /* Footer Styles */
@@ -324,7 +355,6 @@ body::-webkit-scrollbar-thumb:active {
   overflow: hidden;
   box-shadow: 0 0 10px 2px #969696;
   background-color: white;
-  transition:all .25s ease-in-out;
 }
 
 #resume-img {
