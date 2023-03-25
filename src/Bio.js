@@ -6,29 +6,23 @@ function Bio() {
       <div className="bio-content-div">
 
         <div className="bio-img-div">
-          <img src="image0.jpeg" alt="erik bio" />
+          {/* <img src="image0.jpeg" alt="erik bio" /> */}
         </div>
 
         <div className="bio-text-div">
           
-            <h2 className="bio-text" > Hello! I am a frontend web engineer, I am currently expanding my knowledge of software
-          languages and building a body of work to express my skill set, styles,
-          and compassion for engineering.</h2>
+            <h2 className="bio-text" > I'm, a <a id="bio-link"  target="_blank" rel="noreferrer"  href="https://flatironschool.com/courses/coding-bootcamp/" >Flatiron School</a> grad and front end engineer with a background in screen printing. With a sharp eye for design and a passion for both art and technology, I build, user-friendly interfaces that...</h2>
 
           <p className="link">
-        Reach out
-        <br />
+        Learn more
+        {/* <br />
         <a className="tag" id="reach-out-link" href="mailto:erikrussells@gmail.com?subject=Hello!">
           erikrussells@gmail.com
-        </a>
+        </a> */}
       </p>
           
         </div>
-
-        
-
       </div>
-      {/* <div className="line-div" ></div> */}
     </div>
     
   );
