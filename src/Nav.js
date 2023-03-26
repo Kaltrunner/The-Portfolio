@@ -29,9 +29,9 @@ function Nav() {
             <li className="menu-item">All Projects</li>
           </Link>
 
-          <Link to="/Resume" className="nav-resume-link">
-            <li className="menu-item">Resume</li>
-          </Link>
+          {/* <Link to="/Resume" className="nav-resume-link"> */}
+            <a className="nav-resume-link" href="Resume-2023-pdf.pdf" download="Erik Russell-Resume" ><li id="resume-li" className="menu-item"><span><img id="resume-arrow" src="https://static.thenounproject.com/png/9709-200.png" /></span> Resume</li></a>
+          {/* </Link> */}
 
           <li className="menu-item">
             <a

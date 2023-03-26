@@ -87,6 +87,11 @@ body::-webkit-scrollbar-thumb:active {
   color: #101820;
 }
 
+#resume-arrow {
+  width: 1.65vw;
+  background-color: transparent;
+}
+
 
 /* Clock Styles */
 
