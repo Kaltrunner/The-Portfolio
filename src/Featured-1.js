@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { ScrollToTop } from "react-router-scroll-to-top";
 
 function Featured1() {
-    return (
-        <>
-        <div className="select-featured-body-div" >
+  return (
+    <>
+      <div className="select-featured-body-div">
         <ul className="sub-menu-list">
           <li className="sub-menu-item" id="disabled">
             / Erik Russell
@@ -19,36 +19,48 @@ function Featured1() {
           <h1 className="header-text">.Rudy</h1>
         </div>
 
+        <div className="line-div"></div>
+
         <div className="select-body-div">
           <div className="select-section">
-            <div className="select-section-info" >
-                
+            <div className="select-section-info"></div>
+
+            <div className="projects-sub-header-div">
+              <h4 className="projects-sub-header">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </h4>
             </div>
-            <h4 className="projects-sub-header" >Info...</h4>
           </div>
 
           <div className="select-section">
-          <div className="select-section-info" >
+            <div className="select-section-info"></div>
+
+            <div className="projects-sub-header-div">
+              <h4 className="projects-sub-header">Info...</h4>
             </div>
-            <h4 className="projects-sub-header" >Info...</h4>
           </div>
 
           <div className="select-section">
-          <div className="select-section-info" >
-                <div className="section-img" ></div>
-                <div className="section-img" ></div>
-                <div className="section-img" ></div>
+            <div className="select-section-info">
+              <div className="section-img"></div>
+              <div className="section-img"></div>
+              <div className="section-img"></div>
             </div>
-            <h4 className="projects-sub-header" >Info...</h4>
+            <div className="projects-sub-header-div">
+              <h4 className="projects-sub-header">Info...</h4>
+            </div>
           </div>
-          
         </div>
-
-        </div>
-        <Footer />
-        <ScrollToTop />
-        </>
-    )
+      </div>
+      <Footer />
+      <ScrollToTop />
+    </>
+  );
 }
 
-export default Featured1
+export default Featured1;

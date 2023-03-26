@@ -32,7 +32,8 @@ function Projects() {
                     src="Snake pit.png"
                     alt="snake pit game"
                   />
-                  <a id="project-a"
+                  <a
+                    id="project-a"
                     href="https://www.erikmrussell.com/"
                     target="_blank"
                     rel="noreferrer"
@@ -47,7 +48,8 @@ function Projects() {
                     src="greensquare.png"
                     alt="green square project"
                   />
-                  <a id="project-a"
+                  <a
+                    id="project-a"
                     href="https://a-green-square-project.onrender.com/"
                     target="_blank"
                     rel="noreferrer"
@@ -59,12 +61,13 @@ function Projects() {
                 </div>
 
                 <div class="img-wrapper">
-                    <img
-                      className="projects-image"
-                      src="optical-lie.png"
-                      alt="optical lie"
-                    />
-                    <a id="project-a"
+                  <img
+                    className="projects-image"
+                    src="optical-lie.png"
+                    alt="optical lie"
+                  />
+                  <a
+                    id="project-a"
                     href="https://optical-lie.onrender.com/"
                     target="_blank"
                     rel="noreferrer"
@@ -74,12 +77,13 @@ function Projects() {
                 </div>
 
                 <div class="img-wrapper">
-                    <img
-                      className="projects-image"
-                      src="rudy.png"
-                      alt="rudy project website"
-                    />
-                      <a id="project-a"
+                  <img
+                    className="projects-image"
+                    src="rudy.png"
+                    alt="rudy project website"
+                  />
+                  <a
+                    id="project-a"
                     href="https://www.erikmrussell.com/"
                     target="_blank"
                     rel="noreferrer"
@@ -89,12 +93,13 @@ function Projects() {
                 </div>
 
                 <div class="img-wrapper">
-                    <img
-                      className="projects-image"
-                      src="Screenshot 2023-03-13 at 2.30.32 PM.png"
-                      alt="nutimasafn"
-                    />
-                    <a id="project-a"
+                  <img
+                    className="projects-image"
+                    src="Screenshot 2023-03-13 at 2.30.32 PM.png"
+                    alt="nutimasafn"
+                  />
+                  <a
+                    id="project-a"
                     href="https://nutimasafn.onrender.com/"
                     target="_blank"
                     rel="noreferrer"
@@ -104,12 +109,13 @@ function Projects() {
                 </div>
 
                 <div class="img-wrapper">
-                    <img
-                      className="projects-image"
-                      src="design-system-sid.png"
-                      alt="design system sid"
-                    />
-                     <a id="project-a"
+                  <img
+                    className="projects-image"
+                    src="design-system-sid.png"
+                    alt="design system sid"
+                  />
+                  <a
+                    id="project-a"
                     href="https://design-system-sid.onrender.com/"
                     target="_blank"
                     rel="noreferrer"

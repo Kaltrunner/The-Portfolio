@@ -2,7 +2,7 @@ import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import { ScrollToTop } from "react-router-scroll-to-top";
 
-function Featured2() {
+function Featured3() {
   return (
     <>
       <div className="select-featured-body-div">
@@ -16,7 +16,7 @@ function Featured2() {
         </ul>
 
         <div className="projects-header-text-div">
-          <h1 className="header-text">Nútímasafn</h1>
+          <h1 className="header-text">Coming Soon</h1>
         </div>
 
         <div className="line-div"></div>
@@ -24,15 +24,35 @@ function Featured2() {
         <div className="select-body-div">
           <div className="select-section">
             <div className="select-section-info"></div>
+
             <div className="projects-sub-header-div">
-              <h4 className="projects-sub-header">Info...</h4>
+              <h4 className="projects-sub-header">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.{" "}
+              </h4>
+
+              <div className="projects-sub-header-laguage">
+                <div id="laguage-types">React</div>
+                <div id="laguage-types">JavaScript</div>
+                <div id="laguage-types">Bootstrap</div>
+                <div id="laguage-types">CSS</div>
+                <div id="laguage-types">HTML</div>
+              </div>
             </div>
           </div>
 
           <div className="select-section">
             <div className="select-section-info"></div>
+
             <div className="projects-sub-header-div">
-              <h4 className="projects-sub-header">Info...</h4>
+              <h4 className="projects-sub-header">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </h4>
             </div>
           </div>
 
@@ -42,8 +62,14 @@ function Featured2() {
               <div className="section-img"></div>
               <div className="section-img"></div>
             </div>
+
             <div className="projects-sub-header-div">
-              <h4 className="projects-sub-header">Info...</h4>
+              <h4 className="projects-sub-header">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </h4>
             </div>
           </div>
 
@@ -61,4 +87,4 @@ function Featured2() {
   );
 }
 
-export default Featured2;
+export default Featured3;
