@@ -42,7 +42,7 @@ function Projects() {
                   </a>
                 </div>
 
-                <div class="img-wrapper">
+                <div className="img-wrapper">
                   <img
                     className="projects-image"
                     src="greensquare.png"
@@ -60,7 +60,7 @@ function Projects() {
                   </a>
                 </div>
 
-                <div class="img-wrapper">
+                <div className="img-wrapper">
                   <img
                     className="projects-image"
                     src="optical-lie.png"
@@ -76,7 +76,7 @@ function Projects() {
                   </a>
                 </div>
 
-                <div class="img-wrapper">
+                <div className="img-wrapper">
                   <img
                     className="projects-image"
                     src="rudy.png"
@@ -92,7 +92,7 @@ function Projects() {
                   </a>
                 </div>
 
-                <div class="img-wrapper">
+                <div className="img-wrapper">
                   <img
                     className="projects-image"
                     src="Screenshot 2023-03-13 at 2.30.32 PM.png"
@@ -108,7 +108,7 @@ function Projects() {
                   </a>
                 </div>
 
-                <div class="img-wrapper">
+                <div className="img-wrapper">
                   <img
                     className="projects-image"
                     src="design-system-sid.png"

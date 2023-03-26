@@ -34,6 +34,13 @@ function Featured1() {
                 in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                 nulla pariatur.
               </h4>
+
+              <div className="projects-sub-header-laguage">
+                <div id="laguage-types">React</div>
+                <div id="laguage-types">JavaScript</div>
+                <div id="laguage-types">CSS</div>
+                <div id="laguage-types">HTML</div>
+              </div>
             </div>
           </div>
 
@@ -41,7 +48,10 @@ function Featured1() {
             <div className="select-section-info"></div>
 
             <div className="projects-sub-header-div">
-              <h4 className="projects-sub-header">Info...</h4>
+              <h4 className="projects-sub-header">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </h4>
             </div>
           </div>
 
@@ -52,7 +62,12 @@ function Featured1() {
               <div className="section-img"></div>
             </div>
             <div className="projects-sub-header-div">
-              <h4 className="projects-sub-header">Info...</h4>
+              <h4 className="projects-sub-header">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </h4>
             </div>
           </div>
         </div>

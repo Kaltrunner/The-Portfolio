@@ -113,14 +113,14 @@ body::-webkit-scrollbar-thumb:active {
   font-size: 10.25vw;
   line-height: 15vh;
   letter-spacing: -.05vw;
-  font-weight: 400;
+  font-weight: 500;
   color: #101820;
   font-style: italic;
   z-index: 900;
 }
 
 #header-span {
-  font-weight: 400;
+  font-weight: 500;
 }
 
 
@@ -152,8 +152,14 @@ body::-webkit-scrollbar-thumb:active {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  box-shadow: 0 0 6px 2px #afafaf;
+  box-shadow: 0 10px 15px 0px #c8c6c6;
+  transition: all .25s ease-in-out;
   background-color: #000;
+}
+
+.bio-img-div:hover {
+  box-shadow: 0 40px 90px -5px #b3b2b2;
+  transition: all .25s ease-in-out;
 }
 
 .bio-img-div img {
@@ -285,6 +291,10 @@ body::-webkit-scrollbar-thumb:active {
   color: #7a7a7a;
   margin-top: 2vh;
 }
+
+/* #coming-soon {
+  filter: blur(4px);
+} */
 
 
 /* Select Projects Styles */
@@ -452,7 +462,7 @@ body::-webkit-scrollbar-thumb:active {
   margin-top: 6rem;
   border-radius: 24px;
   overflow: hidden;
-  box-shadow: 0 0 10px 2px #969696;
+  box-shadow: 0 10px 15px 0px #ebebeb;
   background-color: white;
 }
 

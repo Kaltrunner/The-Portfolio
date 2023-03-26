@@ -5,7 +5,7 @@ function Mouse() {
     <>
       <AnimatedCursor
         id="mouse"
-        innerSize={16}
+        innerSize={20}
         outerSize={16}
         color="255, 255, 255"
         //  color='242, 163, 179'
