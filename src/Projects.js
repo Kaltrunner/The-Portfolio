@@ -34,7 +34,7 @@ function Projects() {
                   />
                   <a
                     id="project-a"
-                    href="https://www.erikmrussell.com/"
+                    href="https://github.com/Kaltrunner/Snake-Pit-Game"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -84,7 +84,7 @@ function Projects() {
                   />
                   <a
                     id="project-a"
-                    href="https://www.erikmrussell.com/"
+                    href="https://github.com/Kaltrunner/Rudy"
                     target="_blank"
                     rel="noreferrer"
                   >
