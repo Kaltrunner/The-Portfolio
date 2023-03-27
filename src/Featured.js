@@ -12,7 +12,7 @@ function Featured() {
         
         <div className="sample">
           <div className="sample-img-div">
-            <img className="sample-img" src="https://images.unsplash.com/photo-1664447972862-e26efc5b709f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1932&q=80" alt="Rudy" />
+            <img className="sample-img" src="rudy-thumbnail.png" alt="Rudy" />
           </div>
             <div className="sample-text-div">
             <Link to="Featured-1" id="sample-link">
@@ -29,7 +29,7 @@ function Featured() {
           <div className="sample-img-div">
             <img
               className="sample-img"
-              src="https://images.unsplash.com/photo-1665971535489-b1ede1c1409d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80"
+              src="museum-thumbnail.png"
               alt="Nútímasafn"
             />
           </div>

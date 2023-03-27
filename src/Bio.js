@@ -20,8 +20,9 @@ function Bio() {
             </a>{" "}
             grad and front end engineer with a background in screen printing.
             With a sharp eye for design and a passion for both art and
-            technology, I build, user-friendly interfaces that are easy & fun to navigate.
+            technology, I create user-friendly interfaces that prioritize usability, utilizing best practices for enjoyable and efficient navigation.
           </h2>
+          
 
           <p className="link">
             Reach out
