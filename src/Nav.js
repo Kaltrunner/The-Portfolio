@@ -30,7 +30,8 @@ function Nav() {
           </Link>
 
           {/* <Link to="/Resume" className="nav-resume-link"> */}
-            <a className="nav-resume-link" href="Resume-2023-pdf.pdf" download="Erik Russell-Resume" ><li id="resume-li" className="menu-item"><span><img id="resume-arrow" src="https://static.thenounproject.com/png/9709-200.png" alt="" /></span> Resume</li></a>
+            <a className="nav-resume-link" href="Erik Russell - Resume (Revised).pdf" download="Erik Russell-Resume" ><li id="resume-li" className="menu-item"> Resume</li></a>
+            {/* <span><img id="resume-arrow" src="https://static.thenounproject.com/png/9709-200.png" alt="" /></span> */}
           {/* </Link> */}
 
           <li className="menu-item">

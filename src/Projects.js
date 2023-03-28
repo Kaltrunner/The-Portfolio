@@ -23,9 +23,9 @@ function Projects() {
         <div className="line-div"></div>
 
         <div className="projects-container">
-          <div className="horizontalScroll">
-            <div class="external">
-              <div className="horizontal-scroll-wrapper">
+          {/* <div className="horizontalScroll"> */}
+            {/* <div class="external"> */}
+              {/* <div className="horizontal-scroll-wrapper"> */}
                 <div className="img-wrapper">
                   <img
                     className="projects-image"
@@ -123,9 +123,9 @@ function Projects() {
                     <p className="projects-image-text">Design System Sid.</p>
                   </a>
                 </div>
-              </div>
-            </div>
-          </div>
+              {/* </div> */}
+            {/* </div> */}
+          {/* </div> */}
         </div>
       </div>
       <Footer />
