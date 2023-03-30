@@ -12,7 +12,7 @@ function Featured() {
         
         <div className="sample">
           <div className="sample-img-div">
-            <img className="sample-img" src="rudy-thumbnail.png" alt="Rudy" />
+            <img className="sample-img" src="rudy-thumbnail-1.png" alt="Rudy" />
           </div>
             <div className="sample-text-div">
             <Link to="Featured-1" id="sample-link">
@@ -29,7 +29,7 @@ function Featured() {
           <div className="sample-img-div">
             <img
               className="sample-img"
-              src="museum-thumbnail.png"
+              src="museum-thumbnail-1.png"
               alt="Nútímasafn"
             />
           </div>

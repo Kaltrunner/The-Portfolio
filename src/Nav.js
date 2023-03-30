@@ -30,9 +30,7 @@ function Nav() {
           </Link>
 
           {/* <Link to="/Resume" className="nav-resume-link"> */}
-            <a className="nav-resume-link" href="Erik Russell - Resume (Revised).pdf" download="Erik Russell-Resume" ><li id="resume-li" className="menu-item"> Resume</li></a>
-            {/* <span><img id="resume-arrow" src="https://static.thenounproject.com/png/9709-200.png" alt="" /></span> */}
-          {/* </Link> */}
+            <a className="nav-resume-link" href="Resume - 2023.pdf" download="Erik Russell-Resume" ><li id="resume-li" className="menu-item"> Resume</li></a>
 
           <li className="menu-item">
             <a
@@ -57,10 +55,6 @@ function Nav() {
               Linkedin
             </a>
           </li>
-
-          {/* <li className="menu-item"> <a className="nav-linkedin" id="menu-link" target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/erik-russell-software-engineer/">Contact</a></li> */}
-
-          {/* <li className="menu-item"><a id="menu-link" target="_blank" rel="noreferrer" href="https://medium.com/@erikrussells">Blog /</a></li> */}
         </ul>
       </div>
     </div>
