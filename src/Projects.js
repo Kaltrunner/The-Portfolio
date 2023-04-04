@@ -1,12 +1,16 @@
-// import React, {useEffect, useState} from "react";
+// import { useState, useRef } from "react";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import { ScrollToTop } from "react-router-scroll-to-top";
 
 function Projects() {
+  // const [searchTerm, setSearchTerm] = useState("");
+  // const searchRef = useRef(null);
 
-  // const [searchItem, setSearchItem] = useState("")
-  
+  // function handleSearch(e) {
+  //   setSearchTerm(e.target.value);
+  // }
+
   return (
     <>
       <div className="projects-body-div">
@@ -27,24 +31,29 @@ function Projects() {
         <div className="line-div"></div>
 
         <div className="marquee-div">
-          <p className="marquee" ><span></span></p>
+          <p className="marquee">
+            <span></span>
+          </p>
         </div>
 
-        <div className="search-div">
-        <img className="search-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Magnifying_Glass_%2889626%29_-_The_Noun_Project.svg/2048px-Magnifying_Glass_%2889626%29_-_The_Noun_Project.svg.png" alt="" />
+        {/* <div className="search-div">
+          <img
+            className="search-img"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Magnifying_Glass_%2889626%29_-_The_Noun_Project.svg/2048px-Magnifying_Glass_%2889626%29_-_The_Noun_Project.svg.png"
+            alt=""
+          />
           <div className="comp-search">
             <input
               type="text"
-              className="searchTerm"
               placeholder="Search Projects"
-              // onChange={(e) => setSearchItem(e.target.value)}
+              value={searchTerm}
+              onChange={handleSearch}
+              ref={searchRef}
+              id="search"
+              className="searchTerm"
             />
-           
-            {/* <button type="submit" class="searchButton">
-              <p class="fa-fa-search">search</p>
-            </button> */}
           </div>
-        </div>
+        </div> */}
 
         <div className="projects-container">
           <div className="img-wrapper">
@@ -142,12 +151,31 @@ function Projects() {
               <p className="projects-image-text">Design System Sid.</p>
             </a>
           </div>
+
+          {/* <div>
+            {searchRef.current &&
+              searchRef.current.nextSibling &&
+              Array.from(searchRef.current.nextSibling.children)
+                .filter((div) =>
+                  div
+                    .querySelector("p")
+                    .textContent.toLowerCase()
+                    .includes(searchTerm.toLowerCase())
+                )
+                .map((div, index) => (
+                  <div key={index}>{div.querySelector("p").textContent}</div>
+                ))}
+          </div> */}
+
+
         </div>
       </div>
+
       <Footer />
       <ScrollToTop />
     </>
   );
+ 
 }
 
 export default Projects;

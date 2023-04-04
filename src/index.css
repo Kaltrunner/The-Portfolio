@@ -509,7 +509,7 @@ body::-webkit-scrollbar-thumb:active {
 
 .img-wrapper {
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   align-items: flex-start;
 }
 
@@ -534,7 +534,7 @@ body::-webkit-scrollbar-thumb:active {
   padding: 0;
   color: #000;
   margin-left: .25vw;
-  margin-bottom: -.25vw;
+  /* margin-bottom: -.25vw; */
   /* margin-top: 1vh; */
   border-bottom: 2px solid #f2f2f2;
 }
@@ -646,6 +646,10 @@ body::-webkit-scrollbar-thumb:active {
   /* transform: rotate(270deg); */
   background-color: #f2f2f2;
   object-fit: cover;
+}
+
+.hide {
+  display: none;
 }
 
 
