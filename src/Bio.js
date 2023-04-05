@@ -3,7 +3,7 @@ function Bio() {
     <div className="bio-body-div">
       <div className="bio-content-div">
         <div className="bio-img-div">
-          {/* <img src="image0.jpeg" alt="erik bio" /> */}
+          <img src="image0.jpeg" alt="erik bio" />
         </div>
 
         <div className="bio-text-div">

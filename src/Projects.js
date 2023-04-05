@@ -30,12 +30,6 @@ function Projects() {
 
         <div className="line-div"></div>
 
-        <div className="marquee-div">
-          <p className="marquee">
-            <span></span>
-          </p>
-        </div>
-
         {/* <div className="search-div">
           <img
             className="search-img"
