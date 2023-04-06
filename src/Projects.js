@@ -155,7 +155,7 @@ function Projects() {
           <div className="img-wrapper">
             <img
               className="projects-image"
-              src="design-system-sid.png"
+              src="Design System Sid - 2023.png"
               alt="design system sid"
             />
             <a
