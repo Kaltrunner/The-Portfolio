@@ -46,9 +46,31 @@ function Projects() {
               id="search"
               className="searchTerm"
             />
+            
           </div>
         </div> */}
 
+        {/* {searchTerm ? (
+  <div>
+    {searchRef.current &&
+      searchRef.current.nextSibling &&
+      Array.from(searchRef.current.nextSibling.children)
+        .filter((div) =>
+          div
+            .querySelector("img")
+            .textContent.toLowerCase()
+            .includes(searchTerm.toLowerCase())
+        )
+        .map((div, index) => (
+          <div key={index}>{div}</div>
+        ))}
+        {searchRef.current &&
+      searchRef.current.nextSibling &&
+      Array.from(searchRef.current.nextSibling.children).length === 0 && (
+        <p>No results found.</p>
+      )}
+  </div>
+) : ( */}
         <div className="projects-container">
           <div className="img-wrapper">
             <img
@@ -146,6 +168,7 @@ function Projects() {
             </a>
           </div>
 
+       
           {/* <div>
             {searchRef.current &&
               searchRef.current.nextSibling &&
@@ -163,6 +186,7 @@ function Projects() {
 
 
         </div>
+         {/* )} */}
       </div>
 
       <Footer />

@@ -303,6 +303,10 @@ body::-webkit-scrollbar-thumb:active {
   filter: blur(2px);
 }
 
+#coming-soon-text {
+  filter: blur(2px);
+}
+
 
 /* Select Projects Styles */
 

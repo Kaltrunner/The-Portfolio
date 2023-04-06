@@ -64,7 +64,7 @@ function Featured() {
           </div>
           <div className="sample-text-div">
             <Link to="Featured-3" id="sample-link">
-              <h4 className="sample-name-text">Coming Soon</h4>
+              <h4 className="sample-name-text" id="coming-soon-text" >Coming Soon</h4>
             </Link>
             <p className="sample-text" id="coming-soon-text" >
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
