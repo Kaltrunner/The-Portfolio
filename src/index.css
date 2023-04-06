@@ -157,7 +157,7 @@ body::-webkit-scrollbar-thumb:active {
   background-size: cover;
   box-shadow: 0 10px 15px 0px #c8c6c6;
   transition: all .25s ease-in-out;
-  background-color: #000;
+  /* background-color: #000; */
 }
 
 .bio-img-div:hover {
