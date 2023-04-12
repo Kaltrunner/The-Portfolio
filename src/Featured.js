@@ -51,7 +51,7 @@ function Featured() {
           </div>
         </div>
 
-        <div className="sample">
+        {/* <div className="sample">
           <div className="sample-img-div">
             <Link to="Featured-3" id="sample-link">
               <img
@@ -71,7 +71,7 @@ function Featured() {
               eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

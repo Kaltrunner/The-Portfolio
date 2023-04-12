@@ -29,7 +29,6 @@ function Nav() {
             <li className="menu-item">All Projects</li>
           </Link>
 
-          {/* <Link to="/Resume" className="nav-resume-link"> */}
             <a className="nav-resume-link" href="Resume - 2023.pdf" download="Erik Russell-Resume" ><li id="resume-li" className="menu-item"> Resume</li></a>
 
           <li className="menu-item">
