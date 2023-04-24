@@ -9,10 +9,12 @@ function Projects() {
       <div className="projects-body-div">
         <ul className="sub-menu-list">
           <li className="sub-menu-item" id="disabled">
-            / Erik Russell 
+            / Erik Russell
           </li>
           <Link to="/" className="nav-resume-link">
-            <li className="menu-item-home">/ <span className="menu-item-home-span">Home</span></li>
+            <li className="menu-item-home">
+              / <span className="menu-item-home-span">Home</span>
+            </li>
           </Link>
         </ul>
 
@@ -24,22 +26,6 @@ function Projects() {
         <div className="line-div"></div>
 
         <div className="projects-container">
-          {/* <div className="img-wrapper">
-            <img
-              className="projects-image"
-              src="Snake pit.png"
-              alt="snake pit game"
-            />
-            <a
-              id="project-a"
-              href="https://github.com/Kaltrunner/Snake-Pit-Game"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <p className="projects-image-text">Snake Pit</p>
-            </a>
-          </div> */}
-
           <div className="img-wrapper">
             <a
               id="project-a"
@@ -99,7 +85,7 @@ function Projects() {
             >
               <img
                 className="projects-image"
-                src="Screenshot 2023-03-13 at 2.30.32 PM.png"
+                src="museum-screen-shot.png"
                 alt="nutimasafn"
               />
 

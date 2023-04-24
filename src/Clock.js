@@ -30,7 +30,7 @@ function Clock() {
     let month = months[time.getMonth()];
     let d = time.getDate();
 
-    return month + " " + d + " , " + y;
+    return month + " " + d + ", " + y;
   };
 
   return <div id="landing-txt">{formattedTime()}</div>;
