@@ -720,9 +720,9 @@ body::-webkit-scrollbar-thumb:active {
     margin: 0 auto;
     height: 50vh;
   }
-  /* .sample {
+  .sample {
     width: 100%;
-  } */
+  }
   .sample-img-div img {
     width: 75vw;
   }
@@ -806,8 +806,11 @@ body::-webkit-scrollbar-thumb:active {
     height: auto;
     margin: 0;
   }
+  .sample {
+    width: 100%;
+  }
   .sample-text {
-    /* width: 100%; */
+    width: 100%;
     font-size: 1rem;
   }
   .footer-body-div {
