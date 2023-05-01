@@ -57,8 +57,8 @@ function Featured() {
               <img
                 className="sample-img"
                 id="coming-soon"
-                src="https://images.unsplash.com/photo-1655720031554-a929595ffad7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80"
-                alt="Nútímasafn"
+                src=""
+                alt=""
               />
             </Link>
           </div>

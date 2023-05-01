@@ -29,7 +29,16 @@ function Nav() {
             <li className="menu-item">All Projects</li>
           </Link>
 
-            <a className="nav-resume-link" href="Resume - 2023.pdf" download="Erik Russell-Resume" ><li id="resume-li" className="menu-item"> Resume</li></a>
+          <a
+            className="nav-resume-link"
+            href="Resume - 2023.pdf"
+            download="Erik Russell-Resume"
+          >
+            <li id="resume-li" className="menu-item">
+              {" "}
+              Resume
+            </li>
+          </a>
 
           <li className="menu-item">
             <a

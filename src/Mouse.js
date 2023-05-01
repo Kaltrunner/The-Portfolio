@@ -8,7 +8,6 @@ function Mouse() {
         innerSize={20}
         outerSize={20}
         color="255, 255, 255"
-        //  color='242, 163, 179'
         outerAlpha={0.1}
         innerScale={1}
         outerScale={4}

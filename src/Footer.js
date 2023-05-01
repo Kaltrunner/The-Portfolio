@@ -9,8 +9,6 @@ function Footer() {
             <p className="footer-text-tag">All Projects</p>
           </Link>
 
-          {/* <Link to="/Resume" className="nav-resume-link" ><p className="footer-text">Resume</p></Link> */}
-
           <p className="footer-text">
             <a
               className="tag"
@@ -34,8 +32,6 @@ function Footer() {
           </p>
 
           <p className="footer-logo">© 2023 Erik Russell</p>
-
-          {/* <p className="footer-text"><a className="tag" target="_blank" rel="noreferrer" href="https://medium.com/@erikrussells">Blog/</a></p> */}
         </ul>
       </div>
 
@@ -49,10 +45,6 @@ function Footer() {
               erikrussells@gmail.com
             </a>
           </p>
-
-          {/* <p className="footer-text"><a  className="tag"  target="_blank" rel="noreferrer" href="https://www.instagram.com/russellerik/?hl=en" >Instagram /</a></p>
-
-          <p className="footer-text"><a className="tag" target="_blank" rel="noreferrer" href="https://open.spotify.com/artist/55PSX5vztaOftFhmVG3Q2D" >Music /</a></p> */}
         </ul>
       </div>
     </div>

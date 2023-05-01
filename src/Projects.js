@@ -1,4 +1,3 @@
-// import { useState, useRef } from "react";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import { ScrollToTop } from "react-router-scroll-to-top";
@@ -39,25 +38,9 @@ function Projects() {
                 alt="green square project"
               />
 
-              <p className="projects-image-text">A GREEN SQUARE PROJECT</p>
+              <p className="projects-image-text">AGREENSQUAREPROJECT</p>
             </a>
           </div>
-
-          {/* <div className="img-wrapper">
-            <img
-              className="projects-image"
-              src="optical-lie.png"
-              alt="optical lie"
-            />
-            <a
-              id="project-a"
-              href="https://optical-lie.onrender.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <p className="projects-image-text">optical lie</p>
-            </a>
-          </div> */}
 
           <div className="img-wrapper">
             <a
@@ -126,6 +109,40 @@ function Projects() {
               <p className="projects-image-text">New Matter</p>
             </a>
           </div>
+
+          <div className="img-wrapper">
+            <a
+              id="project-a"
+              href="https://helvetica.onrender.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="projects-image"
+                src="Helvetica-img.png"
+                alt="helvetica"
+              />
+
+              <p className="projects-image-text">Helvetica</p>
+            </a>
+          </div>
+
+          {/* <div className="img-wrapper">
+            <a
+              id="project-a"
+              href=""
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="projects-image"
+                src=""
+                alt=""
+              />
+
+              <p className="projects-image-text"></p>
+            </a>
+          </div> */}
         </div>
       </div>
 
