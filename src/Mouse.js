@@ -10,7 +10,7 @@ function Mouse() {
         color="255, 255, 255"
         outerAlpha={0.1}
         innerScale={1}
-        outerScale={4}
+        outerScale={3.25}
         hasBlendMode={true}
         innerStyle={{
           mixBlendMode: "difference",
