@@ -38,7 +38,7 @@ function Projects() {
                 alt="green square project"
               />
 
-              <p className="projects-image-text">AGREENSQUAREPROJECT</p>
+              <p className="projects-image-text">AGREENSQUAREPROJECT.</p>
             </a>
           </div>
 
