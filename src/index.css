@@ -350,12 +350,12 @@ body::-webkit-scrollbar-thumb:active {
   margin-top: 4vh;
   margin-bottom: 8vh;
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 }
 
 #laguage-types {
-  width: 6vw;
+  width: 8vw;
   height: 4vh;
   font-size: 1vw;
   color: #f2f2f2;
@@ -392,6 +392,7 @@ body::-webkit-scrollbar-thumb:active {
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
+  bottom: 0;
 }
 
 #all-pro {
@@ -909,4 +910,17 @@ body::-webkit-scrollbar-thumb:active {
   .img-wrapper {
     padding-top: 4vh;
   }
+}
+
+.hidden-btn {
+  width: 6vw;
+  height: auto;
+  background-color: transparent !important;
+  color: transparent !important;
+  border: none !important;
+}
+
+.hidden-body-div {
+  margin: 5rem;
+  padding: 0;
 }

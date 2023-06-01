@@ -36,10 +36,10 @@ function Featured2() {
               </h4>
 
               <div className="projects-sub-header-laguage">
-                <div id="laguage-types">React</div>
+                <div id="laguage-types">React.js</div>
                 <div id="laguage-types">JavaScript</div>
                 <div id="laguage-types">CSS</div>
-                <div id="laguage-types">HTML</div>
+                {/* <div id="laguage-types"></div> */}
               </div>
             </div>
           </div>
@@ -76,6 +76,7 @@ function Featured2() {
             <div></div>
             <div></div>
           </div>
+          <Link to="/Hidden" className="hidden-link"  ><button className="hidden-btn" >shhh</button></Link>
         </div>
       </div>
       <Footer />

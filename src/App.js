@@ -6,6 +6,7 @@ import Bio from "./Bio";
 import Featured from "./Featured";
 import Featured1 from "./Featured-1";
 import Featured2 from "./Featured-2";
+import Hidden from "./Hidden";
 import Featured3 from "./Featured-3";
 import Footer from "./Footer";
 import Projects from "./Projects";
@@ -26,6 +27,7 @@ function App() {
         <Route path="/Featured-1" element={<Featured1 />} />
         <Route path="/Featured-2" element={<Featured2 />} />
         <Route path="/Featured-3" element={<Featured3 />} />
+        <Route path="/Hidden" element={<Hidden />} />
         <Route path="/Footer" element={<Footer />} />
         <Route path="/Projects" element={<Projects />} />
         <Route path="/Clock" element={<Clock />} />

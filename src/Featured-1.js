@@ -36,10 +36,10 @@ function Featured1() {
               </h4>
 
               <div className="projects-sub-header-laguage">
-                <div id="laguage-types">React</div>
-                <div id="laguage-types">JavaScript</div>
+                <div id="laguage-types">React.js</div>
+                {/* <div id="laguage-types">JavaScript</div> */}
                 <div id="laguage-types">CSS</div>
-                <div id="laguage-types">HTML</div>
+                <div id="laguage-types">Ruby on Rails</div>
               </div>
             </div>
           </div>
