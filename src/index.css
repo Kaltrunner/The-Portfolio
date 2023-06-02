@@ -336,15 +336,71 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 .select-section-info {
-  width: 100%;
-  height: 70vh;
+  width: auto;
+  height: 50vh;
   border-radius: 28px;
   box-shadow: 0 10px 15px 0px #d1d1d1;
-  background-color: hsl(0, 0%, 74%);
+  /* background-color: hsl(0, 0%, 74%); */
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
+#top-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.select-section-2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-section-info-2 {
+  width: auto;
+  height: 50vh;
+  margin: 1vw;
+  border-radius: 28px;
+  box-shadow: 0 10px 15px 0px #d1d1d1;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#mid-img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.select-section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.select-section-info-3 {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+/* #new-matter-img {
+  width: 85%;
+  height: auto;
+} */
 
 .projects-sub-header-div {
   margin-top: 4vh;
@@ -368,18 +424,48 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 .section-img {
-  width: 18vw;
-  height: 50vh;
+  width: auto;
+  height: 45vh;
   margin: 0 2vw;
   border-radius: 14px;
-  background-color: #808080;
- box-shadow: 0 40px 90px -5px #9c9c9c;
+  /* box-shadow: 0 40px 90px -5px #9c9c9c; */
+  box-shadow: 0 10px 15px 0px #d1d1d1;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+#mobile-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 14px;
 }
 
 .sample-img-div:hover img {
   filter:brightness(100%);
   box-shadow: 0 40px 90px -5px #b5b5b5;
   transition: all 0.5s, filter 0.5s ease-in-out;
+}
+
+.featured-link-text {
+  font-size: 5vw;
+  font-weight: 300;
+  color: #101820;
+  padding: 0;
+  margin: 0;
+  border-bottom: 2px solid #f2f2f2;
+}
+
+.featured-link-text:hover {
+  color: #f2a3b3;
+  border-bottom: 2px solid #101810;
+}
+
+#featured-link {
+  text-decoration: none;
 }
 
 

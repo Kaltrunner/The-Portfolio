@@ -11,21 +11,18 @@ function Featured() {
         <div className="sample">
           <div className="sample-img-div">
             <Link to="Featured-1" id="sample-link">
-              <img
-                className="sample-img"
-                src="rudy-thumbnail-1.png"
-                alt="Rudy"
-              />
+              <img className="sample-img" src="test asset.png" alt="" />
             </Link>
           </div>
 
           <div className="sample-text-div">
             <Link to="Featured-1" id="sample-link">
-              <h4 className="sample-name-text">.Rudy</h4>
+              <h4 className="sample-name-text">New Matter</h4>
             </Link>
             <p className="sample-text">
-              .Rudy is a fully functional design system, consisting of buttons,
-              toggles, sliders, color grids and much more.
+              where you can explore the latest findings on extraterrestrial
+              analysis and delve into the world of Betelgeuse's
+              stellar evolution and its mysterious dimming phenomenon.
             </p>
           </div>
         </div>
