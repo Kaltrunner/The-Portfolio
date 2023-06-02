@@ -258,7 +258,6 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 .sample-img-div:hover img {
-  filter:brightness(100%);
   box-shadow: 0 40px 90px -5px #e4e4e4;
   transition: all 0.5s, filter 0.5s ease-in-out;
 }
@@ -340,7 +339,6 @@ body::-webkit-scrollbar-thumb:active {
   height: 50vh;
   border-radius: 28px;
   box-shadow: 0 10px 15px 0px #d1d1d1;
-  /* background-color: hsl(0, 0%, 74%); */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -361,12 +359,13 @@ body::-webkit-scrollbar-thumb:active {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  /* width: 110%; */
 }
 
 .select-section-info-2 {
   width: auto;
   height: 50vh;
-  margin: 1vw;
+  margin: .75vw;
   border-radius: 28px;
   box-shadow: 0 10px 15px 0px #d1d1d1;
   overflow: hidden;
@@ -473,6 +472,7 @@ body::-webkit-scrollbar-thumb:active {
 
 .footer-body-div {
   height: 24vw;
+  width: 100%;
   background-color: #101820;
   display: flex;
   justify-content: space-around;
@@ -1004,6 +1004,9 @@ body::-webkit-scrollbar-thumb:active {
   background-color: transparent !important;
   color: transparent !important;
   border: none !important;
+  align-items: left;
+  margin: 0;
+  padding: 0;
 }
 
 .hidden-body-div {

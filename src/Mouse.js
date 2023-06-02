@@ -5,12 +5,12 @@ function Mouse() {
     <>
       <AnimatedCursor
         id="mouse"
-        innerSize={20}
-        outerSize={20}
+        innerSize={50}
+        outerSize={50}
         color="255, 255, 255"
         outerAlpha={0.1}
-        innerScale={1}
-        outerScale={3.25}
+        innerScale={0.5}
+        outerScale={1}
         hasBlendMode={true}
         innerStyle={{
           mixBlendMode: "difference",

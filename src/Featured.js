@@ -32,7 +32,7 @@ function Featured() {
             <Link to="Featured-2" id="sample-link">
               <img
                 className="sample-img"
-                src="museum-thumbnail-1.png"
+                src="Nútímasafn-home.png"
                 alt="Nútímasafn"
               />
             </Link>

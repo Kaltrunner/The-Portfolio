@@ -5,6 +5,9 @@ import { ScrollToTop } from "react-router-scroll-to-top";
 function Featured2() {
   return (
     <>
+    <Link to="/Hidden" className="hidden-link">
+          <button className="hidden-btn">shhh</button>
+        </Link>
       <div className="select-featured-body-div">
         <ul className="sub-menu-list">
           <li className="sub-menu-item" id="disabled">
@@ -23,7 +26,9 @@ function Featured2() {
 
         <div className="select-body-div">
           <div className="select-section">
-            <div className="select-section-info"></div>
+            <div className="select-section-info">
+              <img src="top-img.png" alt="" id="top-img" />
+            </div>
             <div className="projects-sub-header-div">
               <h4 className="projects-sub-header">
                 {" "}
@@ -44,8 +49,15 @@ function Featured2() {
             </div>
           </div>
 
-          <div className="select-section">
-            <div className="select-section-info"></div>
+          <div className="select-section-2">
+            <div className="select-section-info-2">
+              <img src="mid-photo-1.png" alt="" id="mid-img" />
+            </div>
+
+            <div className="select-section-info-2">
+              <img src="mid-photo-22.png" alt="" id="mid-img" />
+            </div>
+
             <div className="projects-sub-header-div">
               <h4 className="projects-sub-header">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -54,11 +66,17 @@ function Featured2() {
             </div>
           </div>
 
-          <div className="select-section">
-            <div className="select-section-info">
-              <div className="section-img"></div>
-              <div className="section-img"></div>
-              <div className="section-img"></div>
+          <div className="select-section-3">
+            <div className="select-section-info-3">
+              <div className="section-img">
+                <img src="mobile-img-1.png" alt="" id="mobile-img" />
+              </div>
+              <div className="section-img">
+                <img src="mobile-img-1.png" alt="" id="mobile-img" />
+              </div>
+              <div className="section-img">
+                <img src="mobile-img-1.png" alt="" id="mobile-img" />
+              </div>
             </div>
             <div className="projects-sub-header-div">
               <h4 className="projects-sub-header">
@@ -68,15 +86,15 @@ function Featured2() {
                 nisi ut aliquip ex ea commodo consequat.
               </h4>
             </div>
+            <a
+              id="featured-link"
+              href="https://nutimasafn.onrender.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <h6 className="featured-link-text">View Website</h6>
+            </a>
           </div>
-
-          <div className="img-gallary-div">
-            <div></div>
-            <div></div>
-            <div></div>
-            <div></div>
-          </div>
-          <Link to="/Hidden" className="hidden-link"  ><button className="hidden-btn" >shhh</button></Link>
         </div>
       </div>
       <Footer />

@@ -102,7 +102,7 @@ function Projects() {
             >
               <img
                 className="projects-image"
-                src="/Screenshot 2023-04-12 at 10.29.19 AM.png"
+                src="test asset.png"
                 alt=""
               />
 
