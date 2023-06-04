@@ -1,18 +1,16 @@
 import AnimatedCursor from "react-animated-cursor";
 
 function Mouse() {
-
-  
   return (
     <>
       <AnimatedCursor
         id="mouse"
-        innerSize={25}
-        outerSize={45}
+        innerSize={35}
+        outerSize={35}
         color="255, 255, 255"
         outerAlpha={0.1}
-        innerScale={1}
-        outerScale={0.5}
+        innerScale={.5}
+        outerScale={1}
         hasBlendMode={true}
         trailingSpeed={15}
         innerStyle={{
