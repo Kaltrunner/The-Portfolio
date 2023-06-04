@@ -1,6 +1,8 @@
 import AnimatedCursor from "react-animated-cursor";
 
 function Mouse() {
+
+  
   return (
     <>
       <AnimatedCursor
