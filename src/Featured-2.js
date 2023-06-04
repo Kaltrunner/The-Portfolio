@@ -5,9 +5,9 @@ import { ScrollToTop } from "react-router-scroll-to-top";
 function Featured2() {
   return (
     <>
-    <Link to="/Hidden" className="hidden-link">
-          <button className="hidden-btn">shhh</button>
-        </Link>
+      <Link to="/Hidden" className="hidden-link">
+        <button className="hidden-btn">shhh</button>
+      </Link>
       <div className="select-featured-body-div">
         <ul className="sub-menu-list">
           <li className="sub-menu-item" id="disabled">
