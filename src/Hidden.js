@@ -16,7 +16,7 @@ function Hidden() {
         </ul>
 
         <div className="projects-header-text-div">
-          <h1 className="header-text">Secret Page!!!</h1>
+          <h1 className="header-text">Extra Secret Hidden Page!!!</h1>
         </div>
 
         <div className="line-div"></div>
