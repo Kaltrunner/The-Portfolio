@@ -57,7 +57,7 @@ function Nav() {
 
           <a
             className="nav-resume-link"
-            href="_Erik Russell - Resume (new projects).pdf"
+            href="Erik Russell - Resume .pdf"
             download="Erik Russell-Resume"
           >
             <li id="resume-li" className="menu-item">
