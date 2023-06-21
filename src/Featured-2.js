@@ -44,18 +44,13 @@ function Featured2() {
                 <div id="laguage-types">React.js</div>
                 <div id="laguage-types">JavaScript</div>
                 <div id="laguage-types">CSS</div>
-                {/* <div id="laguage-types"></div> */}
               </div>
             </div>
           </div>
 
           <div className="select-section-2">
             <div className="select-section-info-2">
-              <img src="mid-photo-1.png" alt="" id="mid-img" />
-            </div>
-
-            <div className="select-section-info-2">
-              <img src="mid-photo-22.png" alt="" id="mid-img" />
+              <img src="Events.png" alt="" id="mid-img" />
             </div>
 
             <div className="projects-sub-header-div">
@@ -67,17 +62,17 @@ function Featured2() {
           </div>
 
           <div className="select-section-3">
-            <div className="select-section-info-3">
+            <div className="select-section-2">
               <div className="section-img">
-                <img src="mobile-img-1.png" alt="" id="mobile-img" />
-              </div>
-              <div className="section-img">
-                <img src="mobile-img-1.png" alt="" id="mobile-img" />
-              </div>
-              <div className="section-img">
-                <img src="mobile-img-1.png" alt="" id="mobile-img" />
+                <img src="Membership.png" alt="" id="mid-img" />
               </div>
             </div>
+            <div className="select-section-2">
+              <div className="section-img">
+                <img src="Donation.png" alt="" id="mid-img" />
+              </div>
+            </div>
+
             <div className="projects-sub-header-div">
               <h4 className="projects-sub-header">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
