@@ -384,6 +384,7 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 .select-section-info-3 {
+  display: flex;
   height: inherit;
   background-repeat: no-repeat;
   background-position: center;
@@ -418,6 +419,18 @@ body::-webkit-scrollbar-thumb:active {
   border-radius: 14px;
   box-shadow: 0 10px 15px 0px #d1d1d1;
   display: flex;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.section-img-mobile {
+  width: auto;
+  margin: 4vh 2vw;
+  border-radius: 14px;
+  box-shadow: 0 10px 15px 0px #d1d1d1;
   overflow: hidden;
   background-repeat: no-repeat;
   background-position: center;

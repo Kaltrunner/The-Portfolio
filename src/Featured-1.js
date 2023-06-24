@@ -29,12 +29,17 @@ function Featured1() {
 
             <div className="projects-sub-header-div">
               <h4 className="projects-sub-header">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                New Matter, a captivating hypothetical website, has been crafted
+                using React.js and the flexibility of Bootstrap. Its purpose is
+                to serve as an immersive platform where users can embark on an
+                exhilarating journey to explore the vast mysteries of our
+                universe. New Matter aims to spark curiosity and facilitate a
+                deeper understanding of cosmic phenomena. Visitors can dive into
+                the enigmatic realms of stellar evolution, extraterrestrial
+                samples analysis, and even delve into the captivating dimming of
+                Betelgeuse. Join us on this extraordinary digital expedition as
+                we unravel the secrets of the cosmos, one captivating discovery
+                at a time.
               </h4>
 
               <div className="projects-sub-header-laguage">
@@ -57,30 +62,34 @@ function Featured1() {
 
             <div className="projects-sub-header-div">
               <h4 className="projects-sub-header">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                I had a lot of fun coming up with engaging names and interesting
+                facts to support the theory and allure of the website. This
+                scientific yet friendly approach helped maintain its appeal.
               </h4>
             </div>
           </div>
 
           <div className="select-section-3">
             <div className="select-section-info-3">
-              <div className="section-img">
+              <div className="section-img-mobile">
                 <img src="Frame 11.png" alt="" id="mobile-img" />
               </div>
-              <div className="section-img">
+              <div className="section-img-mobile">
                 <img src="Frame 12.png" alt="" id="mobile-img" />
               </div>
-              <div className="section-img">
+              <div className="section-img-mobile">
                 <img src="Frame 13.png" alt="" id="mobile-img" />
               </div>
             </div>
             <div className="projects-sub-header-div">
               <h4 className="projects-sub-header">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                I embarked on the New Matter project with the enthusiasm to
+                enhance my expertise in utilizing the Bootstrap framework for
+                website development. The primary objective was to leverage
+                Bootstrap's exceptional responsiveness, thereby reducing the
+                dependency on extensive CSS files and creating a more
+                streamlined approach to handling media queries.
+                <br /> (the above 3 images showcase the mobile interface)
               </h4>
             </div>
             <a
