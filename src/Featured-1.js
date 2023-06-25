@@ -29,17 +29,14 @@ function Featured1() {
 
             <div className="projects-sub-header-div">
               <h4 className="projects-sub-header">
-                New Matter, a captivating hypothetical website, has been crafted
-                using React.js and the flexibility of Bootstrap. Its purpose is
-                to serve as an immersive platform where users can embark on an
-                exhilarating journey to explore the vast mysteries of our
-                universe. New Matter aims to spark curiosity and facilitate a
-                deeper understanding of cosmic phenomena. Visitors can dive into
-                the enigmatic realms of stellar evolution, extraterrestrial
-                samples analysis, and even delve into the captivating dimming of
-                Betelgeuse. Join us on this extraordinary digital expedition as
-                we unravel the secrets of the cosmos, one captivating discovery
-                at a time.
+                New Matter is a captivating hypothetical website that has been
+                built using React.js and Bootstrap. Its purpose is to serve as
+                an immersive platform for users to embark on an exhilarating
+                journey exploring the vast mysteries of the universe. Sparking
+                curiosity and deepening understanding of cosmic phenomena,
+                visitors can dive into enigmatic realms like stellar evolution,
+                extraterrestrial samples analysis, and the captivating dimming
+                of Betelgeuse.
               </h4>
 
               <div className="projects-sub-header-laguage">
@@ -84,7 +81,7 @@ function Featured1() {
             <div className="projects-sub-header-div">
               <h4 className="projects-sub-header">
                 I embarked on the New Matter project with the enthusiasm to
-                enhance my expertise in utilizing the Bootstrap framework for
+                enhance my knowledge in utilizing the Bootstrap framework for
                 website development. The primary objective was to leverage
                 Bootstrap's exceptional responsiveness, thereby reducing the
                 dependency on extensive CSS files and creating a more
