@@ -32,12 +32,15 @@ function Featured2() {
             <div className="projects-sub-header-div">
               <h4 className="projects-sub-header">
                 {" "}
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                Nútímasafn, which translates to "Modern Museum" in Icelandic,
+                was an exciting adventure for me as I delved into a large-scale
+                frontend-only project. I focused 100% on perfecting the user
+                interface and experience. My ultimate goal was to ensure that
+                visitors could easily navigate, find clickable elements, and
+                enjoy a seamless and immersive experience akin to exploring a
+                real museum's website. To bring this vision to life, I utilized
+                React, a powerful framework, along with JavaScript functions,
+                while adding a touch of artistic finesse with pure CSS.
               </h4>
 
               <div className="projects-sub-header-laguage">
@@ -55,8 +58,10 @@ function Featured2() {
 
             <div className="projects-sub-header-div">
               <h4 className="projects-sub-header">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Using CSS's Grid properties, I built individual cards to display
+                event information on the "Events" page. I also incorporated
+                photos from Unsplash.com, resulting in a visually appealing and
+                user-friendly presentation.
               </h4>
             </div>
           </div>
