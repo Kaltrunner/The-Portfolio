@@ -80,10 +80,13 @@ function Featured2() {
 
             <div className="projects-sub-header-div">
               <h4 className="projects-sub-header">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat.
+                Drawing inspiration from real museum websites, I crafting pages
+                such as the Membership and Make a donation. My aim was to design these
+                pages with a clean and intuitive interface, ensuring visitors
+                could seamlessly navigate and explore the offerings. By
+                combining aesthetics and user-friendly elements, I strived to
+                create an engaging and enriching experience for users engaging
+                with these pages.
               </h4>
             </div>
             <a
