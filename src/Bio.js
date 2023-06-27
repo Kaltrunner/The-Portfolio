@@ -9,7 +9,7 @@ function Bio() {
         <div className="bio-text-div">
           <h2 className="bio-text">
             {" "}
-            I'm, a{" "}
+            I'm a{" "}
             <a
               id="bio-link"
               target="_blank"
