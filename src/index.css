@@ -37,6 +37,27 @@ body::-webkit-scrollbar-thumb:active {
 }
 
 
+
+  .hidden {
+    filter: blur(10px);
+    transition: all .5s ease-out;
+  }
+
+  @media(prefers-reduced-motion: reduce) {
+    .hidden {
+      transition: none;
+    }
+  }
+
+  .show {
+    filter: blur(0);
+  }
+
+  
+
+
+
+
 /* Nav Styles */
 
 .nav-body-div {
