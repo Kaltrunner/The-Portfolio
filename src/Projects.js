@@ -1,8 +1,60 @@
+import React, { useState } from "react";
 import Footer from "./Footer";
 import { Link } from "react-router-dom";
 import { ScrollToTop } from "react-router-scroll-to-top";
 
 function Projects() {
+  const [searchText, setSearchText] = useState("");
+
+  const handleSearchChange = (event) => {
+    setSearchText(event.target.value);
+  };
+
+  const filteredProjects = [
+    {
+      name: "AGREENSQUAREPROJECT.",
+      imageSrc: "greensquare.png",
+      link: "https://a-green-square-project.onrender.com/",
+    },
+    {
+      name: ".Rudy",
+      imageSrc: "rudy.png",
+      link: "https://github.com/Kaltrunner/Rudy",
+    },
+    {
+      name: "Nútímasafn",
+      imageSrc: "museum-screen-shot.png",
+      link: "https://nutimasafn.onrender.com/",
+    },
+    {
+      name: "Design System Sid.",
+      imageSrc: "Design System Sid - 2023.png",
+      link: "https://design-system-sid.onrender.com/",
+    },
+    {
+      name: "New Matter",
+      imageSrc: "test asset.png",
+      link: "https://new-matter.onrender.com/",
+    },
+    {
+      name: "Helvetica",
+      imageSrc: "Helvetica-img.png",
+      link: "https://helvetica.onrender.com/",
+    },
+    {
+      name: "KALTRUNNER",
+      imageSrc: "KALTRUNNER.png",
+      link: "https://kaltrunner.onrender.com/",
+    },
+    // {
+    //   name: "",
+    //   imageSrc: "",
+    //   link: "",
+    // },
+  ].filter((project) =>
+    project.name.toLowerCase().includes(searchText.toLowerCase())
+  );
+
   return (
     <>
       <div className="projects-body-div">
@@ -24,133 +76,37 @@ function Projects() {
 
         <div className="line-div"></div>
 
+        <div>
+          <input
+            type="text"
+            placeholder="Search Projects..."
+            value={searchText}
+            onChange={handleSearchChange}
+            className="search-bar"
+          />
+        </div>
+
+        <div className="line-div"></div>
+
         <div className="projects-container">
-          <div className="img-wrapper">
-            <a
-              id="project-a"
-              href="https://a-green-square-project.onrender.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="projects-image"
-                src="greensquare.png"
-                alt="green square project"
-              />
+          {filteredProjects.map((project, index) => (
+            <div className="img-wrapper" key={index}>
+              <a
+                id="project-a"
+                href={project.link}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img
+                  className="projects-image"
+                  src={project.imageSrc}
+                  alt={project.name}
+                />
 
-              <p className="projects-image-text">AGREENSQUAREPROJECT.</p>
-            </a>
-          </div>
-
-          <div className="img-wrapper">
-            <a
-              id="project-a"
-              href="https://github.com/Kaltrunner/Rudy"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="projects-image"
-                src="rudy.png"
-                alt="rudy project website"
-              />
-
-              <p className="projects-image-text">.Rudy</p>
-            </a>
-          </div>
-
-          <div className="img-wrapper">
-            <a
-              id="project-a"
-              href="https://nutimasafn.onrender.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="projects-image"
-                src="museum-screen-shot.png"
-                alt="nutimasafn"
-              />
-
-              <p className="projects-image-text">Nútímasafn</p>
-            </a>
-          </div>
-
-          <div className="img-wrapper">
-            <a
-              id="project-a"
-              href="https://design-system-sid.onrender.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="projects-image"
-                src="Design System Sid - 2023.png"
-                alt="design system sid"
-              />
-
-              <p className="projects-image-text">Design System Sid.</p>
-            </a>
-          </div>
-
-          <div className="img-wrapper">
-            <a
-              id="project-a"
-              href="https://new-matter.onrender.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img className="projects-image" src="test asset.png" alt="" />
-
-              <p className="projects-image-text">New Matter</p>
-            </a>
-          </div>
-
-          <div className="img-wrapper">
-            <a
-              id="project-a"
-              href="https://helvetica.onrender.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="projects-image"
-                src="Helvetica-img.png"
-                alt="helvetica"
-              />
-
-              <p className="projects-image-text">Helvetica</p>
-            </a>
-          </div>
-
-          <div className="img-wrapper">
-            <a
-              id="project-a"
-              href="https://kaltrunner.onrender.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img className="projects-image" src="KALTRUNNER.png" alt="" />
-
-              <p className="projects-image-text">KALTRUNNER</p>
-            </a>
-          </div>
-          {/* <div className="img-wrapper">
-            <a
-              id="project-a"
-              href=""
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="projects-image"
-                src=""
-                alt=""
-              />
-
-              <p className="projects-image-text"></p>
-            </a>
-          </div> */}
+                <p className="projects-image-text">{project.name}</p>
+              </a>
+            </div>
+          ))}
         </div>
       </div>
 

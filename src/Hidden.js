@@ -6,7 +6,7 @@ function Hidden() {
   return (
     <>
       <div className="hidden-body-div">
-      <ul className="sub-menu-list">
+        <ul className="sub-menu-list">
           <li className="sub-menu-item" id="disabled">
             / Erik Russell
           </li>
@@ -20,7 +20,6 @@ function Hidden() {
         </div>
 
         <div className="line-div"></div>
-
       </div>
       <Footer />
       <ScrollToTop />

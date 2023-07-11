@@ -1,17 +1,14 @@
 import { Link } from "react-router-dom";
 import Clock from "./Clock";
-import React, { useEffect } from 'react';
-
-
+import React, { useEffect } from "react";
 
 function Nav() {
-
   useEffect(() => {
-    window.addEventListener('scroll', scrollFunction);
+    window.addEventListener("scroll", scrollFunction);
 
     // Cleanup the event listener when the component is unmounted
     return () => {
-      window.removeEventListener('scroll', scrollFunction);
+      window.removeEventListener("scroll", scrollFunction);
     };
   }, []);
 
@@ -26,22 +23,6 @@ function Nav() {
       navbar.style.top = "0";
     }
   }
-
-
-  // window.onscroll = function () {
-  //   scrollFunction();
-  // };
-  
-  // function scrollFunction() {
-  //   if (
-  //     document.body.scrollTop > 125 ||
-  //     document.documentElement.scrollTop > 125
-  //   ) {
-  //     document.getElementById("navbar").style.top = "-150px";
-  //   } else {
-  //     document.getElementById("navbar").style.top = "0";
-  //   }
-  // }
 
   return (
     <div className="nav-body-div" id="navbar">
