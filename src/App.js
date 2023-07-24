@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import Body from "./Body";
 import Nav from "./Nav";
@@ -11,10 +12,22 @@ import Footer from "./Footer";
 import Projects from "./Projects";
 import Clock from "./Clock";
 import Mouse from "./Mouse";
+import LoadingScreen from "./loading-screen/LoadingScreen";
 import "./index.css";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 3000);
+  }, []);
+
+
   return (
+    isLoading ? 
+    <LoadingScreen /> : 
     <>
       <Mouse />
       <Routes>
