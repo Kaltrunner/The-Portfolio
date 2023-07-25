@@ -30,6 +30,14 @@ body::-webkit-scrollbar-thumb:active {
   background-color: #101820;
 }
 
+.app-content {
+  opacity: 0;
+}
+
+.app-content.fade-in {
+  opacity: 1;
+  transition: opacity 750ms ease-in;
+}
 
 /* Nav Styles */
 

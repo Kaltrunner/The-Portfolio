@@ -9,11 +9,16 @@
 }
 
 .loading-text {
-    font-size: 2.15vw;
+    font-size: 2.15rem;
     font-weight: 300;
     margin: 0;
     padding: 0;
     color: #101820;
     cursor: default !important;
-    
 }
+
+.loading-text-hidden {
+    opacity: 0;
+    transition: all 500ms ease-out;
+  }
+  

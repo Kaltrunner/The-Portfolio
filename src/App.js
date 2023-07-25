@@ -17,32 +17,38 @@ import "./index.css";
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
+  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {
       setIsLoading(false);
     }, 3000);
+
+    setTimeout(() => {
+      setIsLoaded(true);
+    }, 3700);
   }, []);
 
-
-  return (
-    isLoading ? 
-    <LoadingScreen /> : 
+  return isLoading ? (
+    <LoadingScreen />
+  ) : (
     <>
-      <Mouse />
-      <Routes>
-        <Route path="/" element={<Body />} />
-        <Route path="/Nav" element={<Nav />} />
-        <Route path="/Header" element={<Header />} />
-        <Route path="/Bio" element={<Bio />} />
-        <Route path="/Featured" element={<Featured />} />
-        <Route path="/Featured-1" element={<Featured1 />} />
-        <Route path="/Featured-2" element={<Featured2 />} />
-        <Route path="/Hidden" element={<Hidden />} />
-        <Route path="/Footer" element={<Footer />} />
-        <Route path="/Projects" element={<Projects />} />
-        <Route path="/Clock" element={<Clock />} />
-      </Routes>
+      <div className={`app-content ${isLoaded ? "fade-in" : ""}`}>
+        <Mouse />
+        <Routes>
+          <Route path="/" element={<Body />} />
+          <Route path="/Nav" element={<Nav />} />
+          <Route path="/Header" element={<Header />} />
+          <Route path="/Bio" element={<Bio />} />
+          <Route path="/Featured" element={<Featured />} />
+          <Route path="/Featured-1" element={<Featured1 />} />
+          <Route path="/Featured-2" element={<Featured2 />} />
+          <Route path="/Hidden" element={<Hidden />} />
+          <Route path="/Footer" element={<Footer />} />
+          <Route path="/Projects" element={<Projects />} />
+          <Route path="/Clock" element={<Clock />} />
+        </Routes>
+      </div>
     </>
   );
 }
