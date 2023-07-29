@@ -43,7 +43,7 @@ function Featured() {
             </Link>
             <p className="sample-text">
               Nútímasafn is a front end only web site modled to have the
-              appearance and feel of exploring a mordern museum website.
+              appearance and feel of exploring a modern museum website.
             </p>
           </div>
         </div>
