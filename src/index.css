@@ -1,12 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900;1000&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*{
-  cursor: none !important;
+* {
+  cursor: default !important;
 }
 
 ::selection {
-  color: #f2a3b3;
-  background-color: #101820;
+  user-select: none;
 }
 
 body {
@@ -39,6 +38,11 @@ body::-webkit-scrollbar-thumb:active {
   transition: opacity 750ms ease-in;
 }
 
+a {
+  cursor: pointer !important;
+}
+
+
 /* Nav Styles */
 
 .nav-body-div {
@@ -67,6 +71,7 @@ body::-webkit-scrollbar-thumb:active {
 .menu-item:hover {
   color: #f2a3b3 ;
   border-bottom: 2px solid #101820;
+  cursor: pointer !important;
 }
 
 .menu-item-home {
@@ -81,6 +86,7 @@ body::-webkit-scrollbar-thumb:active {
 .menu-item-home-span:hover {
   color: #f2a3b3 ;
   border-bottom: 2px solid #101820;
+  cursor: pointer !important;
 }
 
 #menu-link {
@@ -261,6 +267,7 @@ body::-webkit-scrollbar-thumb:active {
 .sample-img-div:hover img {
   box-shadow: 0 40px 90px -5px #e4e4e4;
   transition: all 0.5s, filter 0.5s ease-in-out;
+  cursor: pointer !important;
 }
 
 .sample-img-div {
@@ -285,6 +292,7 @@ body::-webkit-scrollbar-thumb:active {
 .sample-name-text:hover  {
   color: #f2a3b3;
   border-bottom: 2px solid #101820;
+  cursor: pointer !important;
 }
 
 #sample-link {
@@ -453,6 +461,7 @@ body::-webkit-scrollbar-thumb:active {
 .featured-link-text:hover {
   color: #f2a3b3;
   border-bottom: 2px solid #101810;
+  cursor: pointer !important;
 }
 
 #featured-link {
@@ -517,6 +526,7 @@ body::-webkit-scrollbar-thumb:active {
 .footer-text-tag:hover {
   color: #f2a3b3 ;
   border-bottom: 1px solid #e0e0e0;
+  cursor: pointer !important;
 }
 
 .tag {
@@ -560,15 +570,14 @@ body::-webkit-scrollbar-thumb:active {
 .projects-image {
   width: 100%;
   border-radius: 2px;
-  /* filter: blur(2px); */
   filter: brightness(.8);
   box-shadow: 0 10px 15px 0px #d1d1d1;
   transition: all .25s, filter .25s ease-in-out;
 }
  .projects-image:hover {
-  /* filter: blur(0) !important; */
   filter: brightness(1);
   transition: all .25s, filter .25s ease-in-out;
+  cursor: pointer !important;
 }
 
 .projects-image-text {
@@ -578,6 +587,7 @@ body::-webkit-scrollbar-thumb:active {
   color: #000;
   margin-left: .25vw;
   margin-top: .25vh;
+  cursor: pointer !important;
 }
 
 #project-a {
@@ -593,6 +603,7 @@ body::-webkit-scrollbar-thumb:active {
   padding: 8px;
   border: none;
   outline: none;
+  cursor: text !important;
 }
 
 

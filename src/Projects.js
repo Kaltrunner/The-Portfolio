@@ -19,7 +19,7 @@ function Projects() {
     {
       name: ".Rudy",
       imageSrc: "rudy.png",
-      link: "https://github.com/Kaltrunner/Rudy",
+      link: "https://rudy.onrender.com/",
     },
     {
       name: "Nútímasafn",
