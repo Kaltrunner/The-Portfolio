@@ -6,17 +6,13 @@ import Footer from "./Footer";
 
 function Body() {
   return (
-    <>
+    <div className="body-container">
       <Nav />
       <Header />
-      <div>
-        <Bio />
-      </div>
-      <div>
-        <Featured />
-      </div>
+      <Bio />
+      <Featured />
       <Footer />
-    </>
+    </div>
   );
 }
 
