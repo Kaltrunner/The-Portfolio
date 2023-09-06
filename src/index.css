@@ -100,6 +100,8 @@ a {
 .nav-resume-link {
   width: auto;
   color: #101820;
+  padding: 0;
+  margin: 0;
 }
 
 #resume-arrow {
@@ -899,29 +901,30 @@ a {
     height: auto;
     height: auto;
     display: flex;
-    justify-content: space-around;
+    align-items: flex-start;
     flex-direction: column;
   }
   .menu-list {
     width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    font-size: 2rem;
-    margin: 0;
+    margin-top: 1rem;
     padding: 0;
   }
   .menu-item {
-    font-size: 1rem;
+    font-size: 1.5rem;
     margin: 0;
-    padding: 0;
+    padding: .25rem;
   }
-  .nav-resume-link a {
+  .nav-resume-link {
     padding: 0;
     margin: 0;
+  }
+  .menu-link {
+    margin-top: 1rem;
   }
   .clock-div {
-    font-size: 1rem;
+    display: none;
   }
   .header-body-div {
     margin: 0;
@@ -929,7 +932,7 @@ a {
   .header-text {
     text-align: center;
     margin: 0;
-    font-size: 10vw;
+    font-size: 3rem;
     line-height: 1.25;
   }
   .bio-body-div {

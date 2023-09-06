@@ -18,7 +18,7 @@ function Nav() {
       document.body.scrollTop > 125 ||
       document.documentElement.scrollTop > 125
     ) {
-      navbar.style.top = "-150px";
+      navbar.style.top = "-175px";
     } else {
       navbar.style.top = "0";
     }
