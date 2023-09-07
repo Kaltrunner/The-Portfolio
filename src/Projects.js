@@ -12,8 +12,8 @@ function Projects() {
 
   const filteredProjects = [
     {
-      name: "AGREENSQUAREPROJECT.",
-      imageSrc: "greensquare.png",
+      name: "THE GREEN SQUARE",
+      imageSrc: "Screenshot-the-green-square.png",
       link: "https://a-green-square-project.onrender.com/",
     },
     {
@@ -38,7 +38,7 @@ function Projects() {
     },
     {
       name: "Helvetica",
-      imageSrc: "Helvetica-img.png",
+      imageSrc: "Screenshot-font-app.png",
       link: "https://helvetica.onrender.com/",
     },
     {
