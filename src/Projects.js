@@ -44,7 +44,7 @@ function Projects() {
     {
       name: "KALTRUNNER",
       imageSrc: "KALTRUNNER.png",
-      link: "https://kaltrunner.onrender.com/",
+      link: "https://kaltrunner.com/",
     },
     // {
     //   name: "",
