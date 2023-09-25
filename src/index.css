@@ -472,26 +472,24 @@ a {
 /* Footer Styles */
 
 .footer-body-div {
-  height: 24vw;
+  height: 40vh;
   width: 100%;
   background-color: #101820;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 0 auto;
   bottom: 0;
 }
 
-#all-pro {
+/* #all-pro {
   width: 16vw;
   font-size: 4vw;
   font-weight: 400;
-}
+} */
 
-.footer-logo {
-  font-size: .75vw;
+.footer-copy-right {
+  font-size: 1vw;
   padding: 0;
-  margin-top: 5vw;
   color: #c7c7c7;
 }
 
@@ -510,6 +508,8 @@ a {
 .projects-link {
   font-size: 1.75vw;
   text-decoration: none;
+  margin: 0;
+  padding: 0;
 }
 
 .projects-link:hover {
@@ -521,6 +521,8 @@ a {
   font-weight: 300;
   color: #e0e0e0;
   border-bottom: 1px solid #101820;
+  margin: 0;
+  padding: 0;
 }
 
 .footer-text-tag:hover {
@@ -538,6 +540,11 @@ a {
 .tag:hover {
   color: #f2a3b3 ;
   border-bottom: 1px solid #e0e0e0;
+}
+
+.coordinates {
+  color: #e0e0e0;
+  font-size: 1.75vw;
 }
 
 
@@ -883,7 +890,7 @@ a {
     line-height: 1.5rem;
   }
   .footer-body-div {
-    height: auto;
+    height: 20vh;
   }
 }
 
@@ -1021,19 +1028,32 @@ a {
     display: block;
   }
   .sample-text {
-    font-size: 12px;
+    font-size: 1rem;
+  }
+  .footer-text {
+    padding: .5rem;
   }
   .tag {
-    font-size: 12px;
+    font-size: 1rem;
   }
   .footer-body-div {
     height: auto;
+    flex-direction: column;
   }
   .footer-text-tag {
-    font-size: 12px;
+    font-size: 1rem;
+    padding: .5rem;
   }
-  .footer-logo {
+  .footer-copy-right {
     font-size: 8px;
+    padding-left: .5rem;
+  }
+  .footer-link-list {
+    margin: 2rem 0 0 0;
+    text-align: center;
+  }
+  #email-tag {
+    margin: 1rem;
   }
 }
 
